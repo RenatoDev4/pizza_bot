@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecast - Pizza Bot Order</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+</head>
+<body>
+   <header class="cabecalho container">
+        <img src="{{ url_for('static', filename='img/logo-chatbot.svg') }}" alt="Logo Chatbot">
+        <div class="cabecalho__acoes">
+            <a href="#" onclick="limparConversa()">Limpar Conversa</a>
+            <a href="/logout">Logout</a>
+        </div>
+   </header> 
+   <main class="main">
+        <section class="chat container" id="chat">
+            <p class="chat__bolha chat__bolha--bot">
+                🍕 Bem-vindo(a)! 🍕<br/><br/>
+                Olá! Sou seu assistente virtual pronto para retirar seu pedido de pizza. Escolha seus sabores favoritos, adicione complementos e faça seu pedido com alguns cliques. Estou aqui para tornar sua experiência incrível. Vamos começar a jornada do sabor! 🚀
+            </p>
+        </section>
+        <section class="entrada container">
+            <div class="entrada__container">
+                <input type="text" class="entrada__input" placeholder="Enviar uma mensagem" id="input">
+                <button aria-label="Botão de enviar" id="botao-enviar">
+                    <i class="icone icone--enviar-mensagem"></i>
+                </button>
+            </div>
+        </section>
+   </main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</html>

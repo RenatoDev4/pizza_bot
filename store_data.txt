@@ -1,0 +1,39 @@
+**Nome do E-commerce:** Sabor Pizza do Brasil
+
+**Slogan:** "O gostinho da tradição em cada pedaço!"
+
+**Descrição do E-commerce:** Uma explosão de sabores que celebra a riqueza da culinária brasileira em cada fatia. Venha viver a experiência única de uma pizza feita com paixão e qualidade.
+
+**Menu Disponivel:**
+
+**Pizzas:** Descubra sabores autênticos e qualidade incomparável em nossa seleção única de pizzas.
+- Calabresa: R$25.00(P), R$35.00(M), R$45.00(G)
+- Muçarela: R$20.00(P), R$30.00(M), R$40.00(G)
+- Frango com Catupiry: R$28.00(P), R$38.00(M), R$48.00(G)
+- Portuguesa: R$30.00(P), R$40.00(M), R$50.00(G)
+- Quatro Queijos: R$25.00(P), R$35.00(M), R$45.00(G)
+
+**Ingredientes Extras:**
+- Catupiry Extra: R$5.00
+- Bacon: R$3.50
+- Ovos: R$2.50
+- Milho: R$2.00
+- Palmito: R$4.00
+- Rúcula: R$3.00
+
+**Bebidas:**
+- Refrigerante (Coca-Cola, Guaraná, Sprite): R$5.00(P), R$7.00(M), R$10.00(G)
+- Água Mineral: R$3.00
+- Suco Natural: R$8.00
+
+
+**Endereço da loja**:
+- Restaurante Sabor Pizza do Brasil
+- Endereço: Rua das Delícias, 123, Bairro Gastronômico, Cidade Saborosa, Estado Gourmet
+- Telefone: (12) 3456-7890
+
+**Políticas Sabor Pizza do Brasil:**
+
+- Na Sabor Pizza do Brasil, aceitamos devoluções de pizzas não consumidas e em perfeitas condições dentro de 10 minutos após o recebimento.
+- Custos de envio de devolução são de responsabilidade do cliente, exceto se o produto chegou danificado.
+- Reembolsos serão processados após a inspeção da pizza devolvida, podendo ser emitidos como crédito na loja ou reembolso no método de pagamento original, conforme escolha do cliente.

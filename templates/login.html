@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chatbot - IA Generativa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='js/login.js') }}"></script>
+  </head>
+  <body>
+    <header class="cabecalho container">
+        <img src="{{ url_for('static', filename='img/logo-chatbot.svg') }}" alt="Logo Chatbot">
+        <div class="cabecalho__acoes">
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul id="messages" class="list-unstyled">
+                {% for message in messages %}
+                    <li class="alert alert-success">{{ message }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+            {% endwith %}
+        </div>
+   </header> 
+    <main class="login-main">
+        <div id="explicacao" class="container explicacao-container">
+            <p id="explicacaoTexto"></p>
+        </div>
+        <form method="POST" action="{{url_for('autenticar')}}">
+        <input type="hidden" name="proxima" value="{{ proxima }}">            
+        <section class="login container">
+            <h1 class="login__h1">Faça seu login</h1>                    
+        </section>
+        <section class="login container">
+            <div class="login__container">
+                <input type="text" class="login__input" placeholder="Nome de usuário" id="input" name="usuario" required>
+                <button class="btn-login" type="submit">Login</button>
+            </div>
+        </section>                 
+        </form>
+
+        <form method="POST" action="{{url_for('registrar')}}" id="registroForm">
+            <input type="hidden" name="name" id="registroName">
+            <input type="hidden" name="nickname" id="registroNickname">
+            <p class="btn-register">
+                Ainda não tem uma conta? 
+                <button class="btn btn-success" type="button" id="registrarNovoBtn">Registre-se</button>
+            </p>
+        </form>
+
+        <footer class="rodape container">
+            <p>&copy; Renato Ribeiro Moraes | 
+                <a href="https://www.linkedin.com/in/renato-moraes-11b546272/" target="_blank">LinkedIn</a> | 
+                <a href="https://wa.me//5535992503694?text=Olá%20Renato!Vi%20seu%20projeto%20e%20tenho%20algumas%20duvidas!" target="_blank">WhatsApp</a> | 
+                <a href="https://github.com/RenatoDev4" target="_blank">GitHub</a> | 
+                <a href="https://www.forecast.dev.br/" target="_blank">Site Pessoal</a> | 
+                <a href="https://www.forecast.dev.br/wp-content/uploads/2024/01/Curriculo-Atualizado.pdf" target="_blank">Currículo Online</a>
+            </p>
+        </footer>
+        
+    </main>
+</body>
+</html>
