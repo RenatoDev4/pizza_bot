@@ -99,7 +99,7 @@ body {
     top: 0;
     right: calc(-2.5rem - 1rem);
 
-    background-image: url(../img/icone-chatbot.svg);
+    background-image: url(../img/icone-chatbot.png);
     background-repeat: no-repeat;
     background-position: center;
 }

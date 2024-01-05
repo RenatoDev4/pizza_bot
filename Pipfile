@@ -11,6 +11,7 @@ flask = "*"
 tiktoken = "*"
 flask-sqlalchemy = "*"
 mysql-connector-python = "*"
+docker = "*"
 
 [dev-packages]
 

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7b30d50634aaa30112d1837544578a6a3ed66955f07669dc541e9056ca161234"
+            "sha256": "f9ac5eb440b8cd7a4f749d28cfacff20b241da4bdbe7834b386ad3159eeb3716"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -188,6 +188,15 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==1.9.0"
+        },
+        "docker": {
+            "hashes": [
+                "sha256:12ba681f2777a0ad28ffbcc846a69c31b4dfd9752b47eb425a274ee269c5e14b",
+                "sha256:323736fb92cd9418fc5e7133bc953e11a9da04f4483f828b527db553f1e7e5a3"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==7.0.0"
         },
         "flask": {
             "hashes": [
