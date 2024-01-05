@@ -1,10 +1,14 @@
-# Projeto Chatbot
+# Projeto Chatbot com Inteligencia Artificial Generativa
 
-Link do aplicativo : 
+## Imagens
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://www.forecast.dev.br/wp-content/uploads/2024/01/Screenshot-from-2024-01-05-17-01-18.png" alt="Texto Alternativo 1" width="48%">
+    <img src="https://www.forecast.dev.br/wp-content/uploads/2024/01/Screenshot-from-2024-01-05-16-49-34.png" alt="Texto Alternativo 2" width="48%">
+</div>
 
 ## Descrição
 
-Este aplicativo incorpora a vanguarda da tecnologia de Inteligência Artificial Generativa para desempenhar o papel de um assistente virtual em pedidos de uma pizzaria. Garante uma compreensão abrangente de todas as opções, extras e tamanhos de pizzas disponíveis durante a interação, proporcionando assim uma experiência de pedido personalizada. Além disso, responde de maneira amigável e conversacional, garantindo uma interação agradável e eficiente para o cliente.
+Este aplicativo incorpora a tecnologia de Inteligência Artificial Generativa para desempenhar o papel de um assistente virtual em pedidos de uma pizzaria. Garante uma compreensão abrangente de todas as opções, extras e tamanhos de pizzas disponíveis durante a interação, proporcionando assim uma experiência de pedido personalizada. Além disso, responde de maneira amigável e conversacional, garantindo uma interação agradável e eficiente para o cliente.
 
 ## Funcionalidades
 
@@ -36,6 +40,8 @@ Este aplicativo incorpora a vanguarda da tecnologia de Inteligência Artificial 
 
 ## Instalação Docker:
 
+1. **Váriaveis de ambiente:**
+
    ```bash
    docker push renatodev4/chatbot_pizza
 
@@ -47,7 +53,7 @@ Este aplicativo incorpora a vanguarda da tecnologia de Inteligência Artificial 
    OPENAI_API_KEY="SuaChaveAqui"
 
 
-Configure as credenciais da API da OpenAI como uma váriavel de ambiente, como por exemplo em um arquivo .env
+Configure as credenciais da API da OpenAI como uma váriavel de ambiente.
 
 
 ## Contribuições

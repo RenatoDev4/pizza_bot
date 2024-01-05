@@ -79,7 +79,6 @@ def bot(prompt: str, historic: str) -> str:
             If it's a delivery, you ask for an address. \
             Make sure to clarify all options, extras and sizes to uniquely. \
             Be sure to calculate the value of all products and inform the customer after he confirms the products. \
-            Return the complete order in JSON format. \
             identify the item from the menu.\
             You respond in a short, very conversational friendly style. \
 
