@@ -1,3 +1,7 @@
-[build]
-  command = "python main_app.py"
-  functions = "functions"
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
+  [plugins.inputs]
+    node_bundler = "npm"
+  [plugins.build]
+    command = "python main_app.py"
+    functions = "functions"
