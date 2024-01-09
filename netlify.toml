@@ -1,6 +1,3 @@
 [build]
-  command = "pipenv install && pipenv run python main_app.py"
+  command = "python main_app.py"
   functions = "functions"
-
-[build.environment]
-  PIPENV_VERSION = "2023.11.15"
