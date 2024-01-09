@@ -12,8 +12,9 @@ tiktoken = "*"
 flask-sqlalchemy = "*"
 mysql-connector-python = "*"
 docker = "*"
+flask-cors = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.11"
+python_version = "3.8"
