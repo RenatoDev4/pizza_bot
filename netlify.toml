@@ -1,7 +1,7 @@
 [[plugins]]
   package = "@netlify/plugin-functions-core"
-  [plugins.inputs]
-    node_bundler = "npm"
+  origin = "config"
+
   [plugins.build]
-    command = "python main_app.py"
+    command = "pipenv run python main_app.py"
     functions = "functions"
